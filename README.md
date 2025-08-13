@@ -14,13 +14,13 @@ The goal is to enable reliable, secure, and scalable data transmission between s
   
 ## Project Structure
 
-.
-├── gateway/           # Gateway software and communication logic
-├── meter/             # Smart meter firmware and data acquisition
-├── docs/              # Project documentation
-├── scripts/           # Utility scripts for setup and testing
-├── tests/             # Unit and integration tests
-```
+
+        ├── gateway/           # Gateway software and communication logic
+        ├── meter/             # Smart meter firmware and data acquisition
+        ├── docs/              # Project documentation
+        ├── scripts/           # Utility scripts for setup and testing
+        ├── tests/             # Unit and integration tests
+
 
 ## Getting Started
 
@@ -31,14 +31,14 @@ The goal is to enable reliable, secure, and scalable data transmission between s
 - MQTT broker or HTTP server (as communication backend) - Things board cloud
 
 ## Components
-
-  1)ZMPT101B - voltage sensor
-  2)ACS712 - current sensor
-  3)STM32F446RE - Microcontroller
-  4)A5d2x -Microprocessor
-  5)Bread board
-  6)jumper wires
-  7)ethernet cable
+ 
+        1)ZMPT101B - voltage sensor
+        2)ACS712 - current sensor
+        3)STM32F446RE - Microcontroller
+        4)A5d2x -Microprocessor
+        5)Bread board
+        6)jumper wires
+        7)ethernet cable
 
 ### Installation
 
