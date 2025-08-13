@@ -49,39 +49,15 @@ The goal is to enable reliable, secure, and scalable data transmission between s
     cd smart-meter-with-gateway-driven-communication
     ```
 
-2. **Install dependencies (Python):**
-
-    ```bash
-    cd gateway
-    pip install -r requirements.txt
-    ```
-
-3. **Build and flash smart meter firmware:**
-
-    - Refer to the `meter/README.md` for microcontroller setup instructions.
-
-### Configuration
-
-- Configure gateway connection parameters in `gateway/config.yaml`.
-- Set up meter parameters in `meter/config.ini`.
-- Ensure network connectivity between meters and gateway.
-
 ## Usage
 
-- **Start the Gateway:**
-
-    ```bash
-    python gateway/main.py
-    ```
-
-- **Collect Data from Meters:**
-
-    - Meters automatically send usage data to the gateway at configured intervals.
-
-- **Monitor Communication:**
-
-    - Use provided scripts in `scripts/monitor.py` to visualize or log data.
-
+  # stm32
+    It is used to get the values from the sensor using adc and it through uart to a5d2x
+  # a5d2x
+    It will receive the uart values from the stm32 process it send it to the Things board cloud and Display it in the Lcd
+ # cloud
+    The a5d2x sends the data to the Things  board cloud through the Telementry services 
+    
 ## Documentation
 
 Detailed documentation is available in the `docs/` directory. This includes:
